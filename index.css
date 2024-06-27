@@ -97,13 +97,3 @@ body{
     max-width: 100%;
     max-width: 100%;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-, img"] {
-      width: 35px;
-      height: 35px;
-    }
-  }
-
-
