@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="D:\Documents\Proyectos\Portafolio2024\webParaFootBall\LNFDominicana.css">
-    <link rel="icon" href="D:\Documents\Proyectos\Portafolio2024\webParaFootBall\LNFDominicana\white-logo-h6bBqv2P.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="LNFDominicana/white-logo-h6bBqv2P.ico">
     <title>ESTADÍSTICAS</title>
 </head>
 <body>
@@ -39,28 +39,37 @@
 
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container-fluid">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link navbar-brand" href="D:\Documents\Proyectos\Portafolio2024\webParaFootBall\LNFDominicana.html">
-                    <div id="logo" class="img-fluid">
-                        <img src="data:image/svg+xml,%3csvg%20width='191'%20height='45'%20viewBox='0%200%20191%2045'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M110.19%200.18979L107.324%2023.5741L98.913%200.18979C94.8997%20-0.0632634%2090.3163%20-0.0632634%2086.1712%200.18979L82.4467%2030.4921H94.3616L95.5413%2020.901L103.764%2043.7114C108.158%2043.9645%20112.368%2043.9645%20116.762%2043.7114L122.112%200.18979C118.284%20-0.0632634%20114.463%20-0.0632634%20110.19%200.18979Z'%20fill='%23282923'/%3e%3cpath%20d='M135.014%2027.1415L133.04%2043.7111C129.789%2043.9677%20124.5%2043.9677%20121.125%2043.7111L126.41%200.185913H173.564C173.564%202.99089%20173.054%207.19657%20172.416%209.99798H137.177L136.158%2017.7072H151.006C150.942%2020.448%20150.497%2024.3971%20149.795%2027.1379H135.011L135.014%2027.1415Z'%20fill='%23282923'/%3e%3cpath%20d='M172.131%200.189477H156.837L155.629%2010.0015H167.544H171.75C175.446%2010.0015%20178.44%2010.5754%20178.058%2014.0148L176.148%2029.8823C175.702%2033.1328%20172.833%2033.7066%20169.458%2033.7066H164.614L166.293%2020.0952C166.446%2018.8584%20165.48%2017.7678%20164.236%2017.7678H154.681L151.488%2043.7111H168.692C179.715%2043.7111%20186.662%2040.7173%20187.745%2031.9851L190.23%2011.8478C191.313%203.1192%20184.238%200.185913%20172.131%200.185913V0.189477Z'%20fill='%23282923'/%3e%3cpath%20d='M59.4188%2042.7241L64.5511%200.474835C68.183%200.157627%2073.2191%200.221782%2076.466%200.474835L72.3245%2034.5052H94.3544C94.3544%2037.246%2093.8448%2041.2592%2093.2068%2044H60.5451C59.8643%2044%2059.3333%2043.4048%2059.4152%2042.7277L59.4188%2042.7241Z'%20fill='%23282923'/%3e%3cpath%20d='M27.7885%2028.9494C31.523%2028.9494%2034.5504%2025.9219%2034.5504%2022.1874C34.5504%2018.4529%2031.523%2015.4255%2027.7885%2015.4255C24.054%2015.4255%2021.0266%2018.4529%2021.0266%2022.1874C21.0266%2025.9219%2024.054%2028.9494%2027.7885%2028.9494Z'%20fill='%23FF0000'/%3e%3cpath%20d='M55.5972%201.07696V8.75033C55.5972%209.15251%2055.2731%209.47658%2054.871%209.47658H27.8406C20.7922%209.47658%2015.0777%2015.1911%2015.0777%2022.2395V31.2004C15.0777%2031.6026%2014.7536%2031.9267%2014.3514%2031.9267H6.67803C6.27585%2031.9267%205.95178%2031.6026%205.95178%2031.2004V22.1874C5.95178%2018.7529%206.74169%2015.437%208.2318%2012.451C9.10272%2010.7034%2010.2138%209.0686%2011.5506%207.58427C15.7518%202.92007%2021.802%200.350708%2028.0836%200.350708H54.871C55.2731%200.350708%2055.5972%200.674772%2055.5972%201.07696Z'%20fill='%23314DFF'/%3e%3cpath%20d='M49.6252%2013.1773V21.9328C49.6252%2028.0177%2047.2005%2033.8884%2042.7793%2038.0695C42.056%2038.7523%2041.295%2039.3802%2040.4993%2039.9502C36.8189%2042.5977%2032.4122%2044.027%2027.7885%2044.027H0.72625C0.324064%2044.027%200%2043.703%200%2043.3008V35.6274C0%2035.2252%200.324064%2034.9011%200.72625%2034.9011H27.7885C34.8079%2034.9011%2040.4993%2029.2098%2040.4993%2022.1874V13.1773C40.4993%2012.7751%2040.8234%2012.451%2041.2255%2012.451H48.8989C49.3011%2012.451%2049.6252%2012.7751%2049.6252%2013.1773Z'%20fill='%23314DFF'/%3e%3c/svg%3e" alt="LNFD"  width="125" height="34" class="img-fluid m-2">
-                    </div>
-                  </a>
-            </li>
-            <li class="nav-item p-2"><a class="nav-link text-decoration-none fs-5" href="D:\Documents\Proyectos\Portafolio2024\webParaFootBall\index.html">HOME</a></li>
-            <li class="nav-item p-2"><a class="nav-link text-decoration-none fs-5 active" href="#">ESTADÍSTICAS</a></li>
-            <li class="nav-item p-2"><a class="nav-link text-decoration-none fs-5" href="#">COMPETENCIA</a></li>
+      <a href="index.html" class="navbar-brand">
+        <div id="logo" class="navbar-brand img-fluid">
+            <img src="data:image/svg+xml,%3csvg%20width='191'%20height='45'%20viewBox='0%200%20191%2045'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M110.19%200.18979L107.324%2023.5741L98.913%200.18979C94.8997%20-0.0632634%2090.3163%20-0.0632634%2086.1712%200.18979L82.4467%2030.4921H94.3616L95.5413%2020.901L103.764%2043.7114C108.158%2043.9645%20112.368%2043.9645%20116.762%2043.7114L122.112%200.18979C118.284%20-0.0632634%20114.463%20-0.0632634%20110.19%200.18979Z'%20fill='%23282923'/%3e%3cpath%20d='M135.014%2027.1415L133.04%2043.7111C129.789%2043.9677%20124.5%2043.9677%20121.125%2043.7111L126.41%200.185913H173.564C173.564%202.99089%20173.054%207.19657%20172.416%209.99798H137.177L136.158%2017.7072H151.006C150.942%2020.448%20150.497%2024.3971%20149.795%2027.1379H135.011L135.014%2027.1415Z'%20fill='%23282923'/%3e%3cpath%20d='M172.131%200.189477H156.837L155.629%2010.0015H167.544H171.75C175.446%2010.0015%20178.44%2010.5754%20178.058%2014.0148L176.148%2029.8823C175.702%2033.1328%20172.833%2033.7066%20169.458%2033.7066H164.614L166.293%2020.0952C166.446%2018.8584%20165.48%2017.7678%20164.236%2017.7678H154.681L151.488%2043.7111H168.692C179.715%2043.7111%20186.662%2040.7173%20187.745%2031.9851L190.23%2011.8478C191.313%203.1192%20184.238%200.185913%20172.131%200.185913V0.189477Z'%20fill='%23282923'/%3e%3cpath%20d='M59.4188%2042.7241L64.5511%200.474835C68.183%200.157627%2073.2191%200.221782%2076.466%200.474835L72.3245%2034.5052H94.3544C94.3544%2037.246%2093.8448%2041.2592%2093.2068%2044H60.5451C59.8643%2044%2059.3333%2043.4048%2059.4152%2042.7277L59.4188%2042.7241Z'%20fill='%23282923'/%3e%3cpath%20d='M27.7885%2028.9494C31.523%2028.9494%2034.5504%2025.9219%2034.5504%2022.1874C34.5504%2018.4529%2031.523%2015.4255%2027.7885%2015.4255C24.054%2015.4255%2021.0266%2018.4529%2021.0266%2022.1874C21.0266%2025.9219%2024.054%2028.9494%2027.7885%2028.9494Z'%20fill='%23FF0000'/%3e%3cpath%20d='M55.5972%201.07696V8.75033C55.5972%209.15251%2055.2731%209.47658%2054.871%209.47658H27.8406C20.7922%209.47658%2015.0777%2015.1911%2015.0777%2022.2395V31.2004C15.0777%2031.6026%2014.7536%2031.9267%2014.3514%2031.9267H6.67803C6.27585%2031.9267%205.95178%2031.6026%205.95178%2031.2004V22.1874C5.95178%2018.7529%206.74169%2015.437%208.2318%2012.451C9.10272%2010.7034%2010.2138%209.0686%2011.5506%207.58427C15.7518%202.92007%2021.802%200.350708%2028.0836%200.350708H54.871C55.2731%200.350708%2055.5972%200.674772%2055.5972%201.07696Z'%20fill='%23314DFF'/%3e%3cpath%20d='M49.6252%2013.1773V21.9328C49.6252%2028.0177%2047.2005%2033.8884%2042.7793%2038.0695C42.056%2038.7523%2041.295%2039.3802%2040.4993%2039.9502C36.8189%2042.5977%2032.4122%2044.027%2027.7885%2044.027H0.72625C0.324064%2044.027%200%2043.703%200%2043.3008V35.6274C0%2035.2252%200.324064%2034.9011%200.72625%2034.9011H27.7885C34.8079%2034.9011%2040.4993%2029.2098%2040.4993%2022.1874V13.1773C40.4993%2012.7751%2040.8234%2012.451%2041.2255%2012.451H48.8989C49.3011%2012.451%2049.6252%2012.7751%2049.6252%2013.1773Z'%20fill='%23314DFF'/%3e%3c/svg%3e" alt="LNFD"  width="125" height="34" class="img-fluid m-2">
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-decoration-none fs-6" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none fs-6" href="LNFDominicanaEstadisticas.html">ESTADÍSTICAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none fs-6" href="#">COMPETENCIA</a>
+          </li>
         </ul>
-        <div class="m-2">
-            <a href="https://bhd.com.do/homepage-personal" class="text-decoration-none" target="_blank">
-                <img src="D:\Documents\Proyectos\Portafolio2024\webParaFootBall\LNFDominicana\Isotipo-BHD-T2SU3NQb.png" alt="nhdlogo" class="me-5" style="width: 32px; height: 32px;">
+        <form class="d-flex">
+            <a href="https://bhd.com.do/homepage-personal" class="text-decoration-none me-5" target="_blank">
+                <img src="LNFDominicana/Isotipo-BHD-T2SU3NQb.png" alt="nhdlogo" style="width: 32px; height: 32px;">
             </a>
             <a href="https://www.youtube.com/@LigaNFD" class="text-decoration-none" target="_blank">
                 <button type="button" class="btn btn-outline-danger">TRANSMISION EN VIVO</button>
             </a>
-        </div>
+        </form>
+      </div>
     </div>
-</nav>
+  </nav>
 
  <!--==================================-->
     <!--TABLA DE CLASIFICACIONES-->
@@ -244,7 +253,7 @@
 
 <div class="container mt-5">
     <a href="https://bhd.com.do/homepage-personal" target="_blank">
-        <img src="D:\Documents\Proyectos\Portafolio2024\webParaFootBall\LNFDominicana\nhdlogo.png" alt="bhdlogo" style="width: 100%;">
+        <img src="LNFDominicana/nhdlogo.png" alt="bhdlogo" style="width: 100%;">
     </a>
 </div>
 
@@ -255,76 +264,80 @@
 <!--==================================-->
 
 
-<div class="row mt-sm-3 me-sm-0">
+<div class="row mb-sm-3 mt-sm-3 me-sm-0 image-wrapper">
     <div class="col d-inline-flex">
         <div class="p-1 me-sm-2 container-fluid">
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/batuwear?igsh=MmI0dmU5dzU3NW5v" target="_blank">
                 <img src="https://liganfd.com/assets/Batu-ynr8rO2C.svg" id="logo" alt="batu" style="width: 120px; height: 75px;">
             </a>
         </div>
         <div class="p-1 me-sm-5 container-fluid">
-            <a href="" target="_blank">
+            <a href="https://evolutionparts.net" target="_blank">
                 <img src="https://liganfd.com/assets/EVolution-Parts-aKase72-.svg" id="logo" alt="evolutionParts" style="width: 120px; height: 100px;">
             </a>
         </div>
         <div class="p-1 me-sm-5 container-fluid">
-            <a href="" target="_blank">
+            <a href="https://zeroemisionrd.com" target="_blank">
                 <img src="https://liganfd.com/assets/Zero-Emision-WFPUJPnv.svg" id="logo" alt="zeroEmitionRd" style="width: 90px; height: 90px;">
             </a>
         </div>
         <div class="p-1 me-sm-5 container-fluid">
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/sertelsa_rd/;" target="_blank">
                 <img src="https://liganfd.com/assets/Sertelsa-N1h3ss60.svg" id="logo" alt="sertelsa" style="width: 90px; height: 90px;">
             </a>
         </div>
     </div>
     <div class="col d-lg-inline-flex d-none form-check-reverse">
         <div class="p-1 me-sm-5">
-            <a href="" target="_blank">
-                <img src="https://liganfd.com/assets/Batu-ynr8rO2C.svg" id="logo" alt="batu" style="width: 120px; height: 75px;">
+            <a href="https://www.instagram.com/batuwear?igsh=MmI0dmU5dzU3NW5v" target="_blank">
+                <img src="https://liganfd.com/assets/Batu-ynr8rO2C.svg" id="logo" alt="batu" style="width: 240px; height: 75px;">
             </a>
         </div>
         <div class="p-1 me-sm-5 container-fluid">
-            <a href="" target="_blank">
+            <a href="https://evolutionparts.net" target="_blank">
                 <img src="https://liganfd.com/assets/EVolution-Parts-aKase72-.svg" id="logo" alt="evolutionParts" style="width: 120px; height: 100px;">
             </a>
         </div>
         <div class="p-1 me-sm-5 container-fluid">
-            <a href="" target="_blank">
+            <a href="https://zeroemisionrd.com" target="_blank">
                 <img src="https://liganfd.com/assets/Zero-Emision-WFPUJPnv.svg" id="logo" alt="zeroEmitionRd" style="width: 90px; height: 90px;">
             </a>
         </div>
         <div class="p-1 me-sm-5 container-fluid">
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/sertelsa_rd/;" target="_blank">
                 <img src="https://liganfd.com/assets/Sertelsa-N1h3ss60.svg" id="logo" alt="sertelsa" style="width: 90px; height: 90px;">
             </a>
         </div>
     </div>
   </div>
 
-
- <!--==================================-->
-            <!--Redes sociales-->
-<!--==================================-->
-
-
-<div class="container-fluid mt-5 d-inline-flex justify-content-center border-2 border-top">
-    <div id="logo" class="me-5">
-        <a href=""><i class="bi bi-youtube fs-1 border-3 border-bottom"></i></a>
-    </div>
-    <div id="logo" class="me-5">
-        <a href=""><i class="bi bi-instagram fs-1 border-3 border-bottom"></i></a>
-    </div>
-    <div id="logo" class="">
-        <a href=""><i class="bi bi-twitter fs-1 border-3 border-bottom"></i></a>
-    </div>
-</div>
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 <footer>
-    <div class="row">
+    <div id="foot" class="container-fluid text-light fs-6 d-flex justify-content-center mt-5">
+        
+        <div class="d-flex">
+            <img src="LNFDominicana/white-logo-h6bBqv2P.ico" alt="iconoLNFD" style="width: 75px; height: 75px;">
+            <span>Buscamos profesionalizar y posicionar el futsal en la República Dominicana mediante la 
+                creación de la primera liga. Nuestro objetivo es convertirnos en la principal liga del país, p
+                romoviendo equipos de alto calibre y ofreciendo un espectáculo competitivo que atraiga a una audiencia 
+                comprometida.</span>
+        </div>
+
+            <div class="container d-flex justify-content-center border-2 border-top">
+                <div id="logo" class="me-5">
+                    <a href="https://www.youtube.com/@LigaNFD" target="_blank"><i class="bi bi-youtube fs-1 border-3 border-bottom text-light"></i></a>
+                </div>
+                <div id="logo" class="me-5">
+                    <a href="https://www.instagram.com/liganfd/" target="_blank"><i class="bi bi-instagram fs-1 border-3 border-bottom text-light"></i></a>
+                </div>
+                <div id="logo" class="me-5">
+                    <a href="" target="_blank"><i class="bi bi-twitter fs-1 border-3 border-bottom text-light"></i></a>
+                </div>
+            </div>
+    </div>
+
+    <div class="row container-fluid">
         <div class="col-sm-12">
             <div class="text-center blockquote-footer container-fluid pt-3">
                 <p>Copyright © 2024 Liga Nacional de Futsal Dominicana</p>
