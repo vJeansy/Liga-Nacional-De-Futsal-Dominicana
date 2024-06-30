@@ -8,10 +8,7 @@ body{
     background-color: rgb(240, 240, 240);
 }
 
-/*=================================
-=======Backgroun of header=========
-===================================*/
-
+/* Header's background */
 #header-bg{
     background-image: url(LNFDominicana/LNFD.PNG);
     background-position: center;
@@ -20,10 +17,7 @@ body{
     padding: 40px;
 }
 
-/*=================================
-============Logotipo LNFD==========
-===================================*/
-
+/* Logo LNFD */
 #logo{
     margin: 5px;
     transition: transform 0.3s ease-in-out;
@@ -34,11 +28,7 @@ body{
     transform: scale(1.1); /* Adjust the scaling factor based on your preference */
 }
 
-/*=================================
-=========NEXT TEAMS TO PLAY=========
-===================================*/
-
-
+/* Carousel cards */
 .carta{
     border: none;
     border-radius: 0;
@@ -49,8 +39,7 @@ body{
     padding: 1em;
 }
 
-/*Pointer coursol*/
-/*
+/*P ointer coursol left */
 .carousel-control-prev{
     background-color: #e1e1e1;
     width: 6vh;
@@ -61,6 +50,7 @@ body{
     transform: translate(-50%);
 }
 
+/* Pointer coursol right */
 .carousel-control-next{
     background-color: #e1e1e1;
     width: 6vh;
@@ -68,55 +58,65 @@ body{
     border-radius: 50%;
     top: 50%;
     transform: translate(-50%);
-} */
+}
 
-
+/* carousel for comp screen */
 @media screen and (min-width: 568px){
 .cards-wrapper{
     display: flex;
 }
 }
 
+/*cards size based on quantity*/
 .carta{
     margin: 0.5em;
-    width: calc(100%/1);
+    width: calc(95%/1);
 }
 
+/* carousel images */
 .image-wrapper{
     height: 12vw;
     margin: auto;
 }
 
+/*carousel for small screen*/
 @media screen and (max-width: 567px){
     .carta:not(:first-child){
         display: none;
     }
 }
 
+/*cards size*/
 .image-wrapper{
     height: 10vw;
     margin: auto;
 }
 
+/*carousel images*/
 .image-wrapper img{
-    max-width: 100%;
     max-width: 100%;
 }
 
-/*Promocion de camisetas*/
-#camiseta{
-    width: 100%;
+/*promotion card for t-shirts*/
+#publicidad-email{
+    width: 90%;
     height: 45vh;
     background-image: url(LNFDominicana/LNFD.PNG);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
-
-
 }
 
-#camiseta-ancha{
+/*promotion card for t-shrts - mobile phone*/
+@media screen and (max-width: 281px){
+    #publicidad-email{
+        height: 70vh;
+    }
+}
+
+/*contenido de competencia*/
+#contenido{
     width: 100%;
     height: 70vh;
     background-image: url(LNFDominicana/LNFD.PNG);
@@ -128,21 +128,42 @@ body{
 
 }
 
+/*FOOTER*/
+
+/*footer for big screens only*/
 #foot{
     width: 100%;
-    height: 30vh;
+    height: 26vh;
     background-image: url(LNFDominicana/LNFD.PNG);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
 
+}
+
+/*footer for mid screens only*/
+@media screen and (max-width: 1200px){
+    #foot{
+        height: 40vh;
+    }
+}
+
+/*footer for small screens only*/
+#foot-small{
+    width: 100%;
+    height: 65vh;
+    background-image: url(LNFDominicana/LNFD.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
 
 }
 
-/*for mobilePhone*/
-@media screen and (max-width: 567px){
-    #foot{
-        height: 40vh;
+/*footer for xsmall screens only*/
+@media screen and (max-width: 280px){
+    #foot-small{
+        height: 95vh;
     }
 }
