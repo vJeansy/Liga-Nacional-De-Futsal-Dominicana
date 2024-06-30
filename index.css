@@ -133,7 +133,7 @@ body{
 /*footer for big screens only*/
 #foot{
     width: 100%;
-    height: 26vh;
+    height: 30vh;
     background-image: url(LNFDominicana/LNFD.PNG);
     background-position: center;
     background-size: cover;
